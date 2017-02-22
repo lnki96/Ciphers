@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Ciphers</string>
+    <string name="menu.main.about">About</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="plaintext">Plaintext</string>
+    <string name="ciphertext">Ciphertext</string>
+
+    <string name="mode">Modes</string>
+    <string name="server">Server</string>
+    <string name="client">Client</string>
+
+    <string name="classical_cipher">Classical</string>
+    <string name="modern_cipher">Modern</string>
+    <string name="socket">Socket</string>
+    <string name="ip">IP</string>
+    <string name="port">Port</string>
+    <string name="password">Password</string>
+    <string name="key_length">Key length</string>
+    <string name="key">Key</string>
+    <string name="public_key">Public key</string>
+    <string name="private_key">Private key</string>
+    <string name="plaintext_hint">Plaintext</string>
+    <string name="ciphertext_hint">Ciphertext</string>
+    <string name="p">p</string>
+    <string name="g">g</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="dh_key">DH Key</string>
+
+    <string name="caesear">Caesear</string>
+    <string name="vigenere">Vigenere</string>
+    <string name="keyword">Keyword</string>
+    <string name="autokey">Autokey</string>
+    <string name="column_permutation">Column permutation</string>
+    <string name="playfair">Playfair</string>
+    <string name="rc4">RC4</string>
+    <string name="des">DES</string>
+    <string name="rsa">RSA</string>
+
+    <string name="crypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="file">File</string>
+    <string name="bytes">Bytes</string>
+
+    <string name="open_file">Open File</string>
+    <string name="open">Open</string>
+    <string name="file_path">File path</string>
+</resources>

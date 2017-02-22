@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabTextColor">#cc000000</color>
+    <color name="tabSelectedTextColor">#ff000000</color>
+    <color name="colorDivider">#888888</color>
+    <color name="classicalCipher">#6d4c41</color>
+    <color name="modernCipher">#00796b</color>
+    <color name="socket">#990021</color>
+    <color name="switcher">#01579b</color>
+    <color name="disabled">#727272</color>
+</resources>

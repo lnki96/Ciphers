@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_lock">
+    <target
+        android:animation="@animator/lock_on"
+        android:name="lock_on"/>
+    <target
+        android:animation="@animator/zoom_out"
+        android:name="zoom_out"/>
+</animated-vector>

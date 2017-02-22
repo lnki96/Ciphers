@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider"
+            android:dividerPadding="@dimen/fab_margin"
+            android:orientation="vertical"
+            android:paddingTop="?attr/actionBarSize"
+            android:showDividers="middle">
+
+            <include layout="@layout/cipher_list" />
+
+            <include
+                android:id="@+id/mode_list_include"
+                layout="@layout/mode_list"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/open_file.include"
+                layout="@layout/open_file"
+                android:visibility="gone" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/plaintext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/plaintext_hint"
+                android:minHeight="80dp"
+                android:paddingBottom="3dp"
+                android:paddingTop="16dp"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/pt_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:labelFor="@+id/pt_edit" />
+            </android.support.design.widget.TextInputLayout>
+
+            <include
+                android:id="@+id/password_include"
+                layout="@layout/password"
+                android:visibility="gone" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ciphertext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ciphertext_hint"
+                android:minHeight="80dp"
+                android:paddingBottom="3dp"
+                android:paddingTop="16dp"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ct_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="start"
+                    android:labelFor="@+id/ct_edit"
+                    android:scrollHorizontally="false" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
